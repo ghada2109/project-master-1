@@ -126,7 +126,7 @@ tr:nth-child(odd) td {
         letter-spacing: 1px;
         font-family: sans-serif;
         position: absolute;
-        top: 1100px; left:px;
+        top: 1200px; left:px;
     }
     
     td,
@@ -200,7 +200,7 @@ tr:nth-child(odd) td {
             padding: 0;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             position: absolute;
-            top:250px; left:1300px;
+            top:450px; left:1300px;
             color: #0e45ac
         }
         
@@ -225,7 +225,6 @@ tr:nth-child(odd) td {
              top: -1480px; left:1200px;
         }
         
-Mèriem, date d’envoi : Aujourd’hui, à 15:40
 *{
     margin: 0;
     padding: 0;
