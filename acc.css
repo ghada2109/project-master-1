@@ -1,5 +1,5 @@
 body{
-    background: url(n4.jpg) no-repeat;
+    background: url(4.png) no-repeat;
 }
 *{
     margin: 0;
@@ -25,6 +25,8 @@ ul{
 }
 ul li{
     display: inline-block;
+    
+
 }
 ul li a{
      text-decoration:none ;
@@ -32,11 +34,16 @@ ul li a{
      padding: 5px 20px;
      border: 2px salid blueviolet;
      transition: 0,6 ease;
+     
 }
 ul li a:hover{
       background-color: burlywood;
       color: cadetblue;
 }
+div{
+    font-size: 190%;
+}
+
 #cap{
     font-size:3.5rem;
     margin: 0;
@@ -52,12 +59,12 @@ ul li a:hover{
     letter-spacing: 1px;
     font-family: sans-serif;
     table-layout: auto;
-    width: -200%;
     border: medium solid #061f4e;
     border-collapse: collapse;
     width: 5%;
     position: relative;
-    top: -1000px; left:90px;
+    top: -1330px; left:1220px;
+
 }
 
 td,
@@ -81,17 +88,18 @@ tr:nth-child(odd) td {
 }
 
 .heman {
-    font: 1.4rem molot;
+    font: 0.4rem molot;
     text-shadow: 1px 1px 1px #fff, 2px 2px 1px #000;
 }
 
 .skeletor {
-    font: 1.7rem rapscallion;
+    font: 0.7rem rapscallion;
     letter-spacing: 3px;
     text-shadow: 1px 1px 0 #fff, 0 0 9px #000;
 }
     th {
     font-family: monospace;
+    font-size: 2.5rem;
     border: thin solid #021842;
     width: 50%;
     padding: 5px;
@@ -101,6 +109,7 @@ tr:nth-child(odd) td {
     }
     td {
     font-family: sans-serif;
+    font-size: 2.5rem;
     border: thin solid #b1c6ee;
     width: 50%;
     padding: 5px;
@@ -109,15 +118,15 @@ tr:nth-child(odd) td {
     }
   #cap {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:4.5rem; 
+    font-size:3.5rem; 
     }
     #cap1{
-        font-size: 4.5rem;
+        font-size: 3.5rem ;
         margin: 0;
         padding: 0;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         position: absolute;
-    top: -100px; left: 100px;
+    top: -120px; left: 100px;
     color: #0e45ac
     }
     #tab1{
@@ -126,7 +135,8 @@ tr:nth-child(odd) td {
         letter-spacing: 1px;
         font-family: sans-serif;
         position: absolute;
-        top: 1200px; left:px;
+        top: 790px; left:130px;
+
     }
     
     td,
@@ -192,15 +202,15 @@ tr:nth-child(odd) td {
         }
         #cap1 {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 4.5rem;
+        
         }
         label{
-            font-size: 4.5rem;
+            font-size: 3.5rem;
             margin: 0;
             padding: 0;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             position: absolute;
-            top:450px; left:1300px;
+            top:160px; left:400px;
             color: #0e45ac
         }
         
@@ -220,75 +230,73 @@ tr:nth-child(odd) td {
             border: 1px solid #3f4da5;
             transition: 2s;
             width: 40%;
-            height:50px;
+            height:40px;
             position: relative;
-             top: -1480px; left:1200px;
+             top: -1990px; left:290px;
         }
         
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-header{
-
-    height: 150vh;
-    background-size: cover;
-    background-position: center;
-}
-ul{
-    float: right;
-    list-style-type: none;
-    margin-top: 33px;
-}
-ul li{
-    display: inline-block;
-}
-ul li a{
-     text-decoration:none ;
-     color:blueviolet;
-     padding: 0px 10px;
-     border: 2px salid transparent;
-     transition: 0,6 ease;
-}
-ul li a:hover{
-      background-color: blanchedalmond;
-      color: violet;
-}
-ul li.active a{
-    background-color: blanchedalmond;
-    color: violet;
-}
-.logo img{
-    float:left;
-    width: 100px;
-    padding: 10px;
-    height: auto;
-}
-.main{
-    max-width: 1300px ;
-    margin: auto;
-}
-
-.label
-
- {
-     font-size: 25;
-     font-family: cursive;
-     color: blue;
-     padding: 10px;
-
- }
- .button1{
-     position:absolute;
-     top: 15%;
-     left: 15%;
-     transform: translate(-50%,-50%);
- }
- .button2{
-     border: 1px solid blue;
-     padding: 0px 10px;
-     text-decoration: none; }
-  .button2:hover{ background-color:blanchedalmond;}
-  
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        header{
+        
+            height: 150vh;
+            background-size: cover;
+            background-position: center;
+        }
+        ul{
+            float: right;
+            list-style-type: none;
+            margin-top: 33px;
+        }
+        ul li{
+            display: inline-block;
+        }
+        ul li a{
+             text-decoration:none ;
+             color:blueviolet;
+             padding: 0px 10px;
+             border: 2px salid transparent;
+             transition: 0,6 ease;
+        }
+        ul li a:hover{
+              background-color: blanchedalmond;
+              color: violet;
+        }
+        ul li.active a{
+            background-color: rgb(92, 55, 0);
+            color: violet;
+        }
+        
+        }
+        .main{
+            max-width: 1300px ;
+            margin: auto;
+        }
+        
+        .label
+        
+         {
+             font-size: 25;
+             font-family: cursive;
+             color: blue;
+             padding: 10px;
+        
+         }
+         .button1{
+             position:absolute;
+             top: 15%;
+             left: 15%;
+             transform: translate(50%,-130%);
+             font-size: 150%;
+            
+         }
+         .button2{
+             border: 1px solid blue;
+             padding: 0px 10px;
+             text-decoration: none; }
+          .button2:hover{ background-color:blanchedalmond;}
+          
   
